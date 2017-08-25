@@ -17,4 +17,7 @@ This program has been written by Nicolás C. Cruz (UAL), (August, 2017) and it c
 First, I would like to think all people who has documented the Chip-8 scpecification as well as created and shared their own emulators (see the comments in the core). Thank to their work, I could create my initial Chip-8 emulator in Java. Second, I wish to thank all kind users of BeShare and the Haiku IRC channel for helping me with some doubts regarding the BeAPI. Third and last, I would like to thank DarkWyrm (Jon Yoder) for his great book "Learning to program with Haiku"
 
 ## Additional information
-Writing Chip-8 games is a very funny experience. If you are interested at learning the Chip-8 assembly and creating your own games, I highly recommend the online IDE Octo, by John Earnest.
+Writing Chip-8 games is a very funny experience. If you are interested at learning the Chip-8 assembly and creating your own games, I highly recommend the online IDE Octo, by John Earnest. The default rom included with Pin8 has also been created with it.
+
+## NOTE
+In case of display blinking (found in Zeta OS) try to comment App.cpp: lines 39 and 43 (it is an if condition to minimize drawing) and re-compile.
